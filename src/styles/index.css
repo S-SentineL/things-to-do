@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5; 
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#logindiv, #registerdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px; 
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+}
+
+#box1, #box2 {
+    height: auto;
+    width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #ddd; 
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.box1class, .box2class {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.label-with-eye {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.box1class input, .box2class input {
+    width: 95%; 
+    height: 40px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px;
+    padding: 0 10px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.box1class input:focus, .box2class input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    width: auto;
+    padding: 8px 16px; 
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px; 
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#back-button {
+    width: 60px;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.02); 
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.eye-icon {
+    cursor: pointer;
+    width: 20px; 
+}

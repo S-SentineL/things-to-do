@@ -1,0 +1,97 @@
+.list {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    position: absolute;  
+    top: 0;              
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;    
+}
+
+#todo-header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+.tasks {
+max-height: 550px;
+overflow-y: auto; 
+padding-right: 10px; 
+}
+
+.task-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.new-task {
+    width: 78%;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.new-task.strike-through {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.gap {
+    border-top: 1px solid lightgrey; 
+    margin: 10px 0;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.add-task-button,
+.save-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-task-button:hover,
+.save-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+}
+
+.add-task-button:active,
+.save-button:active {
+    transform: scale(0.98);
+}
+
+input[type="text"].new-task {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+input:focus {
+  outline: none;
+}
+
+.remove-task-button{
+    display: none;
+}
