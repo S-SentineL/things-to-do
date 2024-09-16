@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: auto;
+    width: 100vw;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.list {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.new-task {
+    margin: 5px;
+    width: 78%;
+    height: 30px;
+    border: none;
+}
+
+#gap {
+    border-top: 1px solid lightgrey; 
+    margin: 10px 0;
+    display: none;
+}
+
+#add-img {
+    padding-left: 10px;
+    margin-bottom: -8px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.task-item input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.task-item .new-task[type="text"] { 
+    margin: 5px;
+    width: 78%;
+    height: 30px;
+}
+
+input[type="text"]:focus {
+    border: none;
+    outline: none;
+}
+
+.task-item img {
+    width: 25px;
+    height: 25px;
+}
+
+.strike-through {
+    text-decoration: line-through;
+    color: #333;
+}
+
+#save-btn{
+    background-color: lightgray;
+    padding: 4px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-left: 300px;
+    cursor: pointer;
+}

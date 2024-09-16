@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/list.css"/>
+    <link rel="icon" href="../assets/favicon.png"/>
+</head>
+<body>
+    <div class="list">
+        <h2 id="todo-header">
+            <span id="username-placeholder">USERNAME</span>'s To-Do List
+        </h2>
+        <div class="add-task">
+            <div id="gap"></div>
+            <input type="checkbox" name="list" id="check-1"/>
+            <input type="text" name="list" class="new-task" id="task-1"/>
+            <div class="tasks"></div>
+        </div>
+        <div>
+            <img id="add-img" src="../assets/favicon.png" alt="Add Task"/>
+            <button type="submit" id="save-btn">Save</button>
+            <input type="file" id="upload-file" accept=".json" style="display: none;"/>
+            <button type="submit" id="upload-btn">Upload</button>
+        </div>
+    </div>
+    <script src="../js/list.js"></script>
+</body>
+</html>
+
