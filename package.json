@@ -10,10 +10,11 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "firebase":"10.13.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=6789 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
