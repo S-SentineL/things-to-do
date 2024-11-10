@@ -26,7 +26,3 @@ Check out the live version here: [To-Do List Application](https://things-to-do-3
 ## Contributing
 
 Feel free to fork this repository and submit pull requests for new features or improvements.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
